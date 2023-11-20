@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+   
+    body{
+          background-color: rgb(255,255,255);
+
+       
+    }
+    .tutto{ display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+
+
+    }
+    h1,h3,h2, h4{
+        color: rgb(111,52,18);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    }
+
+ 
+#contents{
+     
+      display: flex;
+    
+      align-items: center;
+      border-radius: 50px;
+       height: 100px;
+      border: none;
+      background-color: rgb(251,247,227);
+     
+}
+ #logo{
+
+    width: 40px;
+   margin-right: 20px;
+ 
+}
+
+#contents button{
+    text-align: center;
+    font-weight: bold;
+ padding-bottom: 10px;
+   align-items: center;
+   height: 50px;
+  border: none;
+  border-radius: 50px;
+  background-color:rgb(243,223,133) ;
+  color: rgb(111,52,18);
+  width: 130px;
+ 
+}
+   
+
+
+       
+
+    a{
+        border-radius: 50px;
+        padding: 10px;
+        font-size: smaller;
+        margin: 10px;
+        background-color: rgb(243,223,133);
+        text-decoration: none;
+        color: rgb(111,52,18);
+    }
+    #miele{
+        width: 300px;
+        padding-top: 20px;
+    }
+    .articolo{
+        display: flex;
+        flex-wrap:wrap-reverse;
+        flex-direction: row;
+      text-align: left;
+      font-size: medium;
+      margin-top: 50px;
+        background-color:rgba(241, 214, 93, 0.511) ;
+      padding: 50px;
+   
+    }
+    article{
+    padding-left: 10px;
+    }
+    .tuttecard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 50PX;
+        align-items: baseline;
+        width: 300PX;
+       
+        
+     
+      
+
+    }
+    .card img{
+       
+        width: 275PX;
+        border-top-right-radius: 100PX;
+        border-top-LEFT-radius: 100PX ;
+        
+    }
+    
+
+      .bassocard{
+      text-align: center;
+      background-color: rgb(251,247,227);
+      width: 275px;
+      margin-top: 0;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius:100px ;
+    }
+
+
+    
+    .price h4:nth-child(2){
+     padding-top: 10px;
+margin-left: 20px;
+      
+    }
+   
+    .card button{
+       background-color: rgb(243,223,133);
+       border: none;
+        width: 130px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+</style>
+<body>
+
+    <div class="tutto">
+        <h1>Honeyhouse</h1>
+    <div id="contents"> 
+
+    <nav>
+    
+         <a href="#"> Our Honey</a>
+         <a href="#"> Trace Honey</a>
+         <button> <img id="logo"src="foto/logo.png" alt="">SHOP</button> 
+         <a href="#"> Facilities</a>
+         <a href="#"> Contacts</a>
+
+    </nav>
+     </div>
+
+       
+      <div class="articolo">
+      
+   <img id="miele"src="foto/honey.jpg" alt="miele"> 
+     <article><h2>Our special Honey</h2>
+          Il miele è una sostanza dolce prodotta dalle api domestiche (Apis mellifera; Apis cerana) <br> e 
+           non (Apis florea; Apis andreniformis; Apis dorsata; Apis laboriosa; Bombus; Trigona; Meliponini ),<br>
+         a partire dal nettare o dalla melata. Il nettare è bottinato sui fiori di moltissime piante ed è <br>
+          secreto dalle ghiandole nettarifere presenti all'interno del fiore ma anche in posizione esterna (extra-floreale). <br>
+           Ha un colore scuro, un'aroma pungente, forte, persistente, penetrante, a volte stucchevole. <br>
+         La cristallizzazione è ritardata quando è puro. Svolge un'azione depurativa del sangue, previene trombosi, <br>
+         tromboflebiti e vene varicose ed è molto efficace contro l'anemia. <br>
+          E' consigliato anche negli stati di affaticamento e debolezza, come magrezza endogena e inappetenza. <br>
+          Ottimo sul pecorino o per dolcificare il caffè.
+     </article>
+       </div>
+
+<h2>Best product of Honeyhouse</h2>
+
+<div class="tuttecard">
+     <div class="card">
+        <img src="foto/honey.jpg" alt=" miele">
+         <div class="bassocard">
+            <div class="price">
+            <h4> 100% Bio Honey <br> italian, not trated</h4>
+           
+               <h4>7$/kg</h4>
+             </div>
+      
+           
+            <button>add to card</button>
+            </div>
+     </div>
+
+     <div class="card">
+        <img src="foto/honey.jpg" alt=" miele">
+            <div class="bassocard">
+            <div class="price">
+            <h4> 100% Bio Honey <br> italian, not trated</h4>
+           
+               <h4>7$/kg</h4>
+             </div>
+      
+           
+            <button>add to card</button>
+        
+           </div>
+           
+     </div>
+
+     <div class="card">
+        <img src="foto/honey.jpg" alt=" miele">
+        <div class="bassocard">
+            <div class="price">
+            <h4> 100% Bio Honey <br> italian, not trated</h4>
+           
+               <h4>7$/kg</h4>
+             </div>
+      
+           
+            <button>add to card</button>
+     
+         </div>
+     </div>
+
+     <div class="card">
+        <img src="foto/honey.jpg" alt=" miele">
+        <div class="bassocard">
+            <div class="price">
+            <h4> 100% Bio Honey <br> italian, not trated</h4>
+           
+               <h4>7$/kg</h4>
+             </div>
+      
+           
+            <button>add to card</button>
+      </div>
+
+     </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
